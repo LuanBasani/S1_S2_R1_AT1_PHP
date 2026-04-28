@@ -14,9 +14,26 @@ Mostra 3 mensagens diferentes na página da empresa usando PHP.
 - organização do arquivo
 
 ## Como executar
-1. Salve o arquivo como `index.php`
-2. Coloque em um servidor local
-3. Abra no navegador
+
+Para executar o projeto, use o servidor embutido do PHP.
+
+Primeiro, abra o terminal dentro da pasta do projeto.
+
+Depois execute o comando:
+
+```bash
+php -S localhost:8000
+```
+
+Em seguida, abra o navegador e acesse:
+
+```text
+http://localhost:8000
+```
+
+O arquivo `index.php` será carregado automaticamente.
+
+> Observação: o comando correto usa **S maiúsculo**: `php -S localhost:8000`.
 
 ## Autor
 Atividade desenvolvida para entrega escolar.
